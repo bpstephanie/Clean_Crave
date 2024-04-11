@@ -113,3 +113,27 @@ footer {
 #socialmedia-icons i {
     color: #ffffff;
 }
+
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        position: relative;
+        box-shadow: none;
+        display: block;
+        padding-right: 1rem;
+        width: fit-content;
+    }
+
+    #menu {
+        display: flex;
+        align-items: baseline;
+
+    }
+
+    #menu > li {
+        padding-right: 20px;
+    }
+    
+    
+}
