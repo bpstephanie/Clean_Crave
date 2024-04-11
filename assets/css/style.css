@@ -28,6 +28,8 @@ header {
     width: 100%;
     box-shadow: 0 2px 2px #ffffff;
     display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 header a {
@@ -72,6 +74,7 @@ nav {
     display: none;
     /* Push nav bar down below header */
     margin-top: 34px;
+    
 }
 
 #toggle {
@@ -80,6 +83,10 @@ nav {
 
 #toggle:checked~nav {
     display:block;
+}
+
+.toggle-label {
+    font-size: 170%;
 }
 
 
