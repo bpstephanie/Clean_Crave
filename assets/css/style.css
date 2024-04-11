@@ -89,7 +89,6 @@ nav {
     font-size: 170%;
 }
 
-
 /* Main content */
 main {
     background-color: orange;
@@ -101,5 +100,16 @@ main {
 footer {
     background-color: #0C5914;
     color: #ffffff;
-    
+}
+
+#socialmedia-icons {
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-evenly;
+    font-size: 200%;
+    list-style-type: none;
+}
+
+#socialmedia-icons i {
+    color: #ffffff;
 }
