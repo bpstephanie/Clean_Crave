@@ -1,3 +1,6 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700;800;900&family=Nunito:ital,wght@0,300;1,300&display=swap');
+
 /* Asterisk wildcard selector to override default styles added by the browser*/
 * {
     padding: 0;
@@ -5,18 +8,31 @@
     box-sizing: border-box;
 }
 
+/* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* General styles */
     color: #254328;
+    font-family: 'Nunito', sans-serif;
 }
+
+h1 {
+    font-family: 'Merienda', cursive;
+    text-transform: uppercase;
+    font-size: 300%;
+    color: #ffffff;
+    letter-spacing: 3px;
+}
+
 /* Header */
 header {
     background-color: #050;
     color: #ffffff;
+
 }
+
 
 /* Main content */
 main {
