@@ -94,6 +94,8 @@ main {
     background-color: orange;
     /* Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
+    /*Push main content down below header*/
+    margin-top: 35px;
 }
 
 /* Footer */
@@ -139,10 +141,19 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 400%;
+    }
+
     #menu a:hover {
         border-top: 2px solid white;
         color: #ffffff;
     }
-    
+
+    /* Main Content*/
+    main {
+        /* Push main content down below header*/
+        margin-top: 78px;
+    }
     
 }
