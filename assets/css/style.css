@@ -27,6 +27,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #ffffff;
+    display: flex;
 }
 
 header a {
@@ -69,6 +70,8 @@ nav {
     padding: 0 0.75em;
     left: 0;
     display: none;
+    /* Push nav bar down below header */
+    margin-top: 34px;
 }
 
 #toggle {
