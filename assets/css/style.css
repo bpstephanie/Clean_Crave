@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #050;
+    background-color: #0C5914;
     color: #ffffff;
     padding: 0 0.75rem;
     position: fixed;
@@ -60,6 +60,17 @@ h1 {
     border-bottom: 2px solid white;
 }
 
+/* Nav bar styles*/
+nav {
+    position: absolute;
+    background-color: #0C5914;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
+    padding: 0 0.75em;
+    left: 0;
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: orange;
@@ -69,7 +80,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #050;
+    background-color: #0C5914;
     color: #ffffff;
     
 }
