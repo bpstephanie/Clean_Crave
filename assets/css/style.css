@@ -24,19 +24,27 @@ h1 {
     font-size: 180%;
     color: #ffffff;
     letter-spacing: 3px;
+    
 }
 
 h2 {
         font-family: 'Lato', sans-serif;
         color:#ffffff;
+        letter-spacing: 2px;
 }
 
 /* Header */
 header {
     background-color: #050;
     color: #ffffff;
+    padding: 0 0.75rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #ffffff;
 
 }
+
 
 
 /* Main content */
