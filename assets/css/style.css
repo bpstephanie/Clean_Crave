@@ -71,6 +71,15 @@ nav {
     display: none;
 }
 
+#toggle {
+    display: none;
+}
+
+#toggle:checked~nav {
+    display:block;
+}
+
+
 /* Main content */
 main {
     background-color: orange;
