@@ -60,7 +60,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Nav bar styles*/
@@ -91,12 +91,23 @@ nav {
 
 /* Main content */
 main {
-    background-color: orange;
+    background-color: #F0EAD6;
     /* Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Push main content down below header*/
     margin-top: 35px;
 }
+
+/* Newletter styles */
+#successful-signup, #successful-enquiry {
+    font-family: 'Merienda', cursive;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+/* Submitted enquiry styles */
 
 /* Footer */
 footer {
@@ -146,8 +157,7 @@ footer {
     }
 
     #menu a:hover {
-        border-top: 2px solid white;
-        color: #ffffff;
+        border-top: 2px solid #ffffff;
     }
 
     /* Main Content*/
