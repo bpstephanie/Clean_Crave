@@ -98,16 +98,13 @@ main {
     margin-top: 35px;
 }
 
-/* Newletter styles */
+/* Newsletter and submitted enquiry styles */
 #successful-signup, #successful-enquiry {
     font-family: 'Merienda', cursive;
-    font-size: 300%;
+    font-size: 100%;
     text-align: center;
-    padding-top: 10%;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-top: 40%;
 }
-/* Submitted enquiry styles */
 
 /* Footer */
 footer {
@@ -127,6 +124,7 @@ footer {
     color: #ffffff;
 }
 
+/* Media query: (tablets 768px and up)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -165,5 +163,24 @@ footer {
         /* Push main content down below header*/
         margin-top: 78px;
     }
+
+    /* Newsletter and submitted enquiry styles*/
+    #successful-signup, #successful-enquiry {
+        font-size: 200%;
+        padding-top: 20%;
+        padding-left: 50px;
+        padding-right: 50px;
     
+}
+    
+}
+/* Media query: large devices (laptops and desktops 992px and up)*/
+@media screen and (min-width: 992px) {
+    /* Newsletter and submitted enquiry styles*/
+    #successful-signup, #successful-enquiry {
+        font-size: 300%;
+        padding-top: 10%;
+        padding-left: 200px;
+        padding-right: 200px
+}
 }
