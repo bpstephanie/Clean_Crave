@@ -118,7 +118,7 @@ main {
     color: #ffffff;
     margin: 10% 10%;
     padding: 10% 10%;
-    border-radius: 25px 45px;
+    border-radius: 15px 65px;
 }
 
 /* Newsletter and submitted enquiry styles */
@@ -187,6 +187,11 @@ footer {
         margin-top: 78px;
     }
 
+    /* Benefits section */
+    #benefits-points {
+        padding: 5% 5%;
+    }
+
     /* Newsletter and submitted enquiry styles*/
     #successful-signup, #successful-enquiry {
         font-size: 200%;
@@ -206,4 +211,16 @@ footer {
         padding-left: 200px;
         padding-right: 200px
 }
+
+    /* Benefits section flex styles */
+    #benefits-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #benefits-points {
+        margin: 10% 3%;
+    }
+
 }
