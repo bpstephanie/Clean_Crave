@@ -98,6 +98,29 @@ main {
     margin-top: 35px;
 }
 
+/* Benefits section*/
+#benefits {
+    background-color:aqua;
+    padding: 10% 0
+}
+#benefits h2 {
+    font-size: 170%;
+    
+}
+
+#benefits h2, #benefits h3 {
+    font-family: 'merienda', cursive;
+    text-align: center;
+}
+
+#benefits-points {
+    background-color: #0C5914;
+    color: #ffffff;
+    margin: 10% 10%;
+    padding: 10% 10%;
+    border-radius: 25px 45px;
+}
+
 /* Newsletter and submitted enquiry styles */
 #successful-signup, #successful-enquiry {
     font-family: 'Merienda', cursive;
