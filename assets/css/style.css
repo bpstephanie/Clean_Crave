@@ -121,6 +121,49 @@ main {
     border-radius: 15px 65px;
 }
 
+/* Brain food gallery section */
+#brainfood-gallery {
+    color: #ffffff;
+    margin: 5% 5%;
+    padding: 10% 10%;
+}
+
+#brainfood-gallery h3 {
+    text-align: center;
+    font-family: 'Merienda' , cursive;
+}
+/*
+#brainfood-items {
+    max-height: 100px;
+    max-width: 270px;
+}
+
+
+#brainfood-gallery div {
+    max-width: 270px;
+    max-height: 270px;
+}
+*/
+#nuts {
+    background: url("../images/nuts.webp");
+} 
+
+#fruits {
+    background: url("../images/fruits.webp");
+} 
+
+#veg {
+    background: url("../images/vegetables.webp");
+} 
+
+#tuna {
+    background: url("../images/tuna.webp");
+} 
+
+#choc {
+    background: url("../images/chocolate.webp");
+} 
+
 /* Newsletter and submitted enquiry styles */
 #successful-signup, #successful-enquiry {
     font-family: 'Merienda', cursive;
@@ -221,6 +264,10 @@ footer {
 
     #benefits-points {
         margin: 10% 3%;
+    }
+
+    #benefits h2 {
+        font-size: 300%;
     }
 
 }
