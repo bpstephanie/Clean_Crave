@@ -56,13 +56,13 @@
                 <legend>Newsletter signup</legend>
                     <form id="signup-form" action="newsletter.html">
                         <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name" required>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
                         <br>
                         <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name" required>
+                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
                         <br>
                         <label for="email-address">Email Address:</label><br>
-                        <input type="email" id="email-address" name="email-address" required>
+                        <input type="email" id="email-address" name="email-address" placeholder="cleancrave@info.co.uk" required>
                         <br>
                         <h4>How often would you like to receive emails?</h4>
                         <label for="daily">Daily:</label>
@@ -79,22 +79,25 @@
             </fieldset>
         </section>
 
+        <!--Enquiry form -->
         <section>
             <h3>Have a question?</h3>
             <fieldset>
                 <legend></legend>
                     <form id="enquiry-form" action="submittedenquiry.html">
                         <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name" required>
+                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
                         <br>
                         <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name" required>
+                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
                         <br>
                         <label for="email-address">Email Address:</label><br>
-                        <input type="email" id="email-address" name="email-address" required>
+                        <input type="email" id="email-address" name="email-address" placeholder="cleancrave@info.co.uk" required>
                         <br>
                         <label for="enquirybox">Please type your enquiry in the box:</label><br>
-                        <textarea rows="10" cols="40" id="enquirybox" name="enquirybox" required></textarea>
+                        <textarea rows="auto" cols="auto" id="enquirybox" name="enquirybox" placeholder="Write your enquiry here..." required></textarea>
+                        <br>
+                        <button type="submit">Submit!</button>
                     </form>
             </fieldset>
         </section>
