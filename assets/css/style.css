@@ -34,11 +34,11 @@ header {
 
 header a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     letter-spacing: 2px;
     text-transform: uppercase;
     font-size: smaller;
-} 
+}
 
 h1 {
     font-family: 'Merienda', cursive;
@@ -46,7 +46,7 @@ h1 {
     font-size: 180%;
     color: #ffffff;
     letter-spacing: 3px;
-    
+
 }
 
 #menu {
@@ -55,7 +55,7 @@ h1 {
     text-transform: uppercase;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -74,7 +74,7 @@ nav {
     display: none;
     /* Push nav bar down below header */
     margin-top: 34px;
-    
+
 }
 
 #toggle {
@@ -82,7 +82,7 @@ nav {
 }
 
 #toggle:checked~nav {
-    display:block;
+    display: block;
 }
 
 .toggle-label {
@@ -100,15 +100,17 @@ main {
 
 /* Benefits section*/
 #benefits {
-    background-color:#F0EAD6;
+    background-color: #F0EAD6;
     padding: 0 0;
 }
+
 #benefits h2 {
     font-size: 170%;
-    
+
 }
 
-#benefits h2, #benefits h3 {
+#benefits h2,
+#benefits h3 {
     font-family: 'merienda', cursive;
     text-align: center;
 }
@@ -119,8 +121,9 @@ main {
     margin: 10% 10%;
     padding: 10% 10%;
     border-radius: 15px 65px;
-    box-shadow:  2px 2px #024e28;
+    box-shadow: 2px 2px 15px #024e28;
 }
+
 /*Brain food gallery section */
 
 #brainfood img {
@@ -133,7 +136,8 @@ main {
 }
 
 /* Newsletter and submitted enquiry styles */
-#successful-signup, #successful-enquiry {
+#successful-signup,
+#successful-enquiry {
     font-family: 'Merienda', cursive;
     font-size: 100%;
     text-align: center;
@@ -148,7 +152,7 @@ footer {
 
 #socialmedia-icons {
     display: flex;
-    flex-flow: row wrap;  
+    flex-flow: row wrap;
     justify-content: space-evenly;
     font-size: 200%;
     list-style-type: none;
@@ -160,13 +164,12 @@ footer {
 
 /* Media query: landscape phones(576px and up)*/
 @media screen and (min-width: 576px) {
+
     /* Brainfood gallery */
     #brainfood {
         column-count: 2;
         column-gap: 0;
     }
-
-
 }
 
 /* Media query: tablets (768px and up)*/
@@ -187,11 +190,11 @@ footer {
 
     }
 
-    #menu > li {
+    #menu>li {
         padding-right: 20px;
     }
 
-    .toggle-label > i {
+    .toggle-label>i {
         display: none;
     }
 
@@ -215,26 +218,28 @@ footer {
     }
 
     /* Newsletter and submitted enquiry styles*/
-    #successful-signup, #successful-enquiry {
+    #successful-signup,
+    #successful-enquiry {
         font-size: 200%;
         padding-top: 20%;
         padding-left: 50px;
         padding-right: 50px;
-    
-}
-    
+
+    }
+
 }
 
 /* Media query: large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
-   
+
     /* Newsletter and submitted enquiry styles*/
-    #successful-signup, #successful-enquiry {
+    #successful-signup,
+    #successful-enquiry {
         font-size: 300%;
         padding-top: 10%;
         padding-left: 200px;
         padding-right: 200px
-}
+    }
 
     /* Benefits section flex styles */
     #benefits-flex {
@@ -251,10 +256,10 @@ footer {
         font-size: 300%;
     }
 
-   /* Brainfood gallery */
-   #brainfood {
-    column-count: 3;
-    column-gap: 0;
+    /* Brainfood gallery */
+    #brainfood {
+        column-count: 3;
+        column-gap: 0;
     }
 
     #brainfood img {
@@ -265,7 +270,7 @@ footer {
 /* Media query: large desktop (1200px and up)*/
 @media screen and (min-width: 1200PX) {
     #brainfood {
-        display:flex;
+        display: flex;
         width: 100%;
     }
 
