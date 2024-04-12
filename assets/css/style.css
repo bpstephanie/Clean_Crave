@@ -122,13 +122,13 @@ main {
 }
 
 /* Brain food gallery section */
-#brainfood-gallery {
+#brainfood-flex {
     color: #ffffff;
     margin: 5% 5%;
     padding: 10% 10%;
 }
 
-#brainfood-gallery h3 {
+#brainfood-flex h3 {
     text-align: center;
     font-family: 'Merienda' , cursive;
 }
@@ -136,14 +136,8 @@ main {
 #brainfood-items {
     max-height: 100px;
     max-width: 270px;
-}
+} */
 
-
-#brainfood-gallery div {
-    max-width: 270px;
-    max-height: 270px;
-}
-*/
 #nuts {
     background: url("../images/nuts.webp");
 } 
@@ -270,4 +264,9 @@ footer {
         font-size: 300%;
     }
 
+    /* Brainfood gallery flex styles*/
+    #brainfood-flex {
+        display: flex;
+        flex-direction: row;
+    }
 }
