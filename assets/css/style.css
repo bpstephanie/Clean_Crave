@@ -100,8 +100,8 @@ main {
 
 /* Benefits section*/
 #benefits {
-    background-color:aqua;
-    padding: 10% 0
+    background-color:#F0EAD6;
+    padding: 0 0;
 }
 #benefits h2 {
     font-size: 170%;
@@ -119,6 +119,7 @@ main {
     margin: 10% 10%;
     padding: 10% 10%;
     border-radius: 15px 65px;
+    box-shadow:  2px 2px #024e28;
 }
 /*Brain food gallery section */
 
@@ -157,7 +158,18 @@ footer {
     color: #ffffff;
 }
 
-/* Media query: (tablets 768px and up)*/
+/* Media query: landscape phones(576px and up)*/
+@media screen and (min-width: 576px) {
+    /* Brainfood gallery */
+    #brainfood {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+
+}
+
+/* Media query: tablets (768px and up)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -212,8 +224,10 @@ footer {
 }
     
 }
+
 /* Media query: large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
+   
     /* Newsletter and submitted enquiry styles*/
     #successful-signup, #successful-enquiry {
         font-size: 300%;
@@ -237,16 +251,25 @@ footer {
         font-size: 300%;
     }
 
-    /* Brainfood gallery section*/
-    #brainfood {
-        display:flex;
-        flex-direction: row;
-        overflow: hidden;
+   /* Brainfood gallery */
+   #brainfood {
+    column-count: 3;
+    column-gap: 0;
     }
 
     #brainfood img {
-        flex-shrink: 2;
-        float:left;
         height: 280px;
+    }
+}
+
+/* Media query: large desktop (1200px and up)*/
+@media screen and (min-width: 1200PX) {
+    #brainfood {
+        display:flex;
+        width: 100%;
+    }
+
+    #brainfood img {
+        overflow-x: hidden;
     }
 }
