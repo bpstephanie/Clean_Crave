@@ -99,8 +99,45 @@ main {
 }
 
 /* Hero image section */
+#hero-image {
+    position: relative;
+    text-align: center;
+    color: darkblue;
+}
+
 #hero-image img {
     max-width: 100%;
+}
+
+#hero-text {
+    position: absolute;
+    bottom: 16px;
+    right: 8px;
+    background-color: rgba(12, 89, 20, 0.5);
+    border-radius: 65px 15px;
+    color: #0C5914;
+    padding: 5% 5%;
+    margin-left: 50%;
+}
+
+#hero-text button {
+    transition-duration: 0.4s;
+    background-color: #F0EAD6;
+    border: 2px solid #0C5914;
+    color: #0C5914;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 2px;
+    
+}
+
+#hero-text > button:hover {
+    background-color: #0C5914;
+    color:#ffffff;
 }
 
 /* Benefits section*/
