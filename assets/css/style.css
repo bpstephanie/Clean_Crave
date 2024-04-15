@@ -91,6 +91,7 @@ nav {
 
 /* Main content */
 main {
+    background-color: #F0EAD6;
     /* Make main take up any surplus space to push footer down*/
     flex: 1 0 auto;
     /*Push main content down below header*/
@@ -104,7 +105,12 @@ main {
     text-align: center;
     height: 600px;
     width: 100%;
-}    
+}
+
+#hero-image h2 {
+    font-size: 140%;
+    font-family: 'Lato' , sans-serif;
+}
 
 #hero-text {
     position: absolute;
@@ -140,12 +146,11 @@ main {
 /* Benefits section*/
 #benefits {
     background-color: #F0EAD6;
-    padding: 0 0;
+    padding: 15px 0;
 }
 
 #benefits h2 {
-    font-size: 170%;
-
+    font-size: 200%;
 }
 
 #benefits h2,
@@ -172,6 +177,52 @@ main {
 
 #brainfood {
     line-height: 0;
+}
+
+/* Recipe page */
+.recipecard {
+    background-color: rgb(193, 231, 212);
+    color: black;
+    margin: 5% 5%;
+    border: 2px solid #0C5914; 
+    overflow: hidden;
+}
+
+.recipecard-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recipecard-content {
+    padding: 5% 5%;
+}
+
+.recipecard-content h2 {
+    text-align: center;
+}
+
+.recipecard-content hr {
+        border-top: 1px solid #0C5914;
+        margin: 5px 0;
+}
+
+.recipecard-content > .nutritional-flex {
+    padding-right: 20%;
+}
+
+.ingredient-list {
+    padding: 0  5% 0 10%;
+}
+
+.nutritional-flex {
+    display: flex;
+    text-align: center;
+}
+
+.nutritional-info {
+    background-color: lightcoral;
+    padding: 3% 3%;
+    margin: 3% 3%;
 }
 
 /* Newsletter and submitted enquiry styles */
@@ -203,6 +254,15 @@ footer {
 
 /* Media query: landscape phones(576px and up)*/
 @media screen and (min-width: 576px) {
+    /* Hero image section */
+    #hero-image h2 {
+        font-size: 180%;
+    }
+
+    /* Benefits section */
+    #benefits h2 {
+        font-size: 300%;
+    }
 
     /* Brainfood gallery */
     #brainfood {
@@ -258,7 +318,15 @@ footer {
         width: 100%;
     }
 
+    #hero-image h2 {
+        font-size: 200%;
+    }
+
     /* Benefits section */
+    #benefits h2 {
+        font-size: 400%;
+    }
+
     #benefits-points {
         padding: 5% 5%;
     }
@@ -290,8 +358,12 @@ footer {
     /* Hero image section */
     #hero-image {
         background: url("../images/friendscooking.webp") no-repeat center center/cover;
-        height: 800px;
+        height: 700px;
         width: 100%;
+    }
+
+    #hero-image h2 {
+        font-size: 300%;
     }
 
     /* Benefits section flex styles */
