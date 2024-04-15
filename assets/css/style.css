@@ -180,6 +180,13 @@ main {
 }
 
 /* Recipes page */
+#recipes > h2 {
+    font-family: 'Merienda', cursive;
+    font-size: 300%;
+    text-align: center;
+    color: #254328;
+    padding-top: 10%;
+}
 .recipecard {
     background-color: rgb(193, 231, 212);
     color: black;
@@ -204,12 +211,12 @@ main {
 }
 
 .recipecard-content hr {
-        border-top: 1px solid #0C5914;
-        margin: 5px 0;
+    border-top: 1px solid #0C5914;
+    margin: 5px 0;
 }
 
 .ingredient-list {
-    padding: 0  5% 0 10%;
+    padding-left: 10%;
 }
 
 .nutritional-flex {
@@ -419,7 +426,12 @@ footer {
 
     .ingmeth-container {
         display: flex;
+        flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    .ingmeth-container > div {
+        flex: 1;
     }
 
 }
