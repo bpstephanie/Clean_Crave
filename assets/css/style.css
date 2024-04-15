@@ -98,6 +98,11 @@ main {
     margin-top: 35px;
 }
 
+/* Hero image section */
+#hero-image img {
+    max-width: 100%;
+}
+
 /* Benefits section*/
 #benefits {
     background-color: #F0EAD6;
