@@ -32,7 +32,7 @@
         <input type="checkbox" id="toggle" name="toggle">
 
         <nav>
-            <ul id="menu" >
+            <ul id="menu">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -48,58 +48,55 @@
     </header>
 
     <!-- Main content-->
-    <main>
+    <main id="contact-forms">
         <!-- Newsletter sign up form-->
         <section>
-            <h3>Sign up to our newsletter to get great recipes straight in your inbox!</h3>
-            <fieldset>
-                <legend>Newsletter signup</legend>
-                    <form id="signup-form" action="newsletter.html">
-                        <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
-                        <br>
-                        <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
-                        <br>
-                        <label for="email-address">Email Address:</label><br>
-                        <input type="email" id="email-address" name="email-address" placeholder="cleancrave@info.co.uk" required>
-                        <br>
-                        <h4>How often would you like to receive emails?</h4>
-                        <label for="daily">Daily:</label>
-                        <input type="radio" id="daily" name="email-frequency" value="daily">
+            <form id="signup-form" action="newsletter.html">
+                <h3>Sign up to our newsletter to get great recipes straight in your inbox!</h3>
+                <label for="first-name">First Name:</label><br>
+                <input type="text" id="first-name" name="first-name" placeholder=" Jane" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name:</label><br>
+                <input type="text" id="last-name" name="last-name" placeholder=" Doe" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address:</label><br>
+                <input type="email" id="email-address" name="email-address" placeholder=" cleancrave@info.co.uk" class="text-input"
+                    required>
+                <br>
+                <h4>How often would you like to receive emails?</h4>
+                <label for="daily">Daily:</label>
+                <input type="radio" id="daily" name="email-frequency" value="daily">
 
-                        <label for="weekly">Weekly:</label>
-                        <input type="radio" id="weekly" name="email-frequency" value="weekly">
+                <label for="weekly">Weekly:</label>
+                <input type="radio" id="weekly" name="email-frequency" value="weekly">
 
-                        <label for="monthly">Monthly:</label>
-                        <input type="radio" id="monthly" name="email-frequency" value="monthly">
-                        <br>
-                        <button type="submit">Subscribe!</button>
-                    </form>
-            </fieldset>
+                <label for="monthly">Monthly:</label>
+                <input type="radio" id="monthly" name="email-frequency" value="monthly">
+                <br>
+                <button type="submit">Subscribe!</button>
+            </form>
         </section>
 
         <!--Enquiry form -->
         <section>
-            <h3>Have a question?</h3>
-            <fieldset>
-                <legend></legend>
-                    <form id="enquiry-form" action="submittedenquiry.html">
-                        <label for="first-name">First Name:</label><br>
-                        <input type="text" id="first-name" name="first-name" placeholder="Jane" required>
-                        <br>
-                        <label for="last-name">Last Name:</label><br>
-                        <input type="text" id="last-name" name="last-name" placeholder="Doe" required>
-                        <br>
-                        <label for="email-address">Email Address:</label><br>
-                        <input type="email" id="email-address" name="email-address" placeholder="cleancrave@info.co.uk" required>
-                        <br>
-                        <label for="enquirybox">Please type your enquiry in the box:</label><br>
-                        <textarea rows="auto" cols="auto" id="enquirybox" name="enquirybox" placeholder="Write your enquiry here..." required></textarea>
-                        <br>
-                        <button type="submit">Submit!</button>
-                    </form>
-            </fieldset>
+                <form id="enquiry-form" action="submittedenquiry.html">
+                    <h3>Have a question?</h3>
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" id="first-name" name="first-name" placeholder=" Jane" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" id="last-name" name="last-name" placeholder=" Doe" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address:</label><br>
+                    <input type="email" id="email-address" name="email-address" placeholder=" cleancrave@info.co.uk" class="text-input"
+                        required>
+                    <br>
+                    <label for="enquirybox">Please type your enquiry in the box:</label><br>
+                    <textarea rows="auto" cols="auto" id="enquirybox" name="enquirybox"
+                        placeholder=" Write your enquiry here..." class="text-input" required></textarea>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
         </section>
     </main>
 
@@ -107,16 +104,20 @@
     <footer>
         <ul id="socialmedia-icons">
             <li><a href="https://www.facebook.com/" target="_blank"
-                    aria-label="Visit our Facebook page (opens in new tab)" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
+                    aria-label="Visit our Facebook page (opens in new tab)" rel="noopener"><i
+                        class="fa-brands fa-facebook-f"></i></a>
             </li>
             <li><a href="https://www.instagram.com/" target="_blank"
-                    aria-label="Visit our Instagram page (opens in new tab)" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in new tab)" rel="noopener"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
             <li><a href="https://www.twitter.com/" target="_blank"
-                    aria-label="Visit our X (formally Twitter) page (opens in new tab)" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
+                    aria-label="Visit our X (formally Twitter) page (opens in new tab)" rel="noopener"><i
+                        class="fa-brands fa-x-twitter"></i></a>
             </li>
             <li><a href="https://www.youtube.com/" target="_blank"
-                    aria-label="Visit our YouTube page (opens in new tab)" rel="noopener"><i class="fa-brands fa-youtube"></i></a></li>
+                    aria-label="Visit our YouTube page (opens in new tab)" rel="noopener"><i
+                        class="fa-brands fa-youtube"></i></a></li>
         </ul>
     </footer>
 
