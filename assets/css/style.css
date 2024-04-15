@@ -179,12 +179,7 @@ main {
     line-height: 0;
 }
 
-/* Recipe page */
-.recipes {
-    display: flex;
-    align-items: center;
-}
-
+/* Recipes page */
 .recipecard {
     background-color: rgb(193, 231, 212);
     color: black;
@@ -200,7 +195,7 @@ main {
 }
 
 .recipecard-content {
-    padding: 5% 5%;
+    padding: 2%;
 }
 
 .recipecard-content h2 {
@@ -397,6 +392,7 @@ footer {
 
 /* Media query: large desktop (1200px and up)*/
 @media screen and (min-width: 1200PX) {
+    /* Brainfood gallery*/
     #brainfood {
         display: flex;
         width: 100%;
@@ -404,5 +400,18 @@ footer {
 
     #brainfood img {
         overflow-x: hidden;
+    }
+
+    /* Recipes page */
+    .recipecard {
+        display:flex;
+        flex-direction: row;
+        max-width: fit-content;
+        max-height: fit-content;
+    }
+
+    .ingmeth-container {
+        display: flex;
+        justify-content: space-between;
     }
 }
