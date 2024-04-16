@@ -379,7 +379,7 @@ footer {
         font-size: 400%;
     }
 
-    #benefits-points {
+    .benefits-points {
         padding: 5% 5%;
     }
 
@@ -425,7 +425,7 @@ footer {
         justify-content: space-evenly;
     }
 
-    #benefits-points {
+    .benefits-points {
         margin: 10% 3%;
     }
 

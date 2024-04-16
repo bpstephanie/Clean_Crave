@@ -1,60 +1,57 @@
 # Clean Crave
 
-Clean Crave is a site to provide healthy meals that aid people whilst studying. It can be difficult to know what foods are good for brain function and concentrating which is why this site exists. It is targeted at students and designed to take away the stress of thinking what to prepare.
+Clean Crave is a site to provide healthy meals that aid people whilst studying. It can be difficult to know what foods are good for brain function and concentrating which is why this site exists. It is targeted at students and designed to take away the stress of thinking what to prepare on a daily basis.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page, Recipe page and Contact page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
+  - The landing includes a photograph which changes depending on the size of the screen you are accessing the site on. Each have a text overlay with the premise of the site and a call-to-action button that leads them directly to the recipes page. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
+- __Benefits section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The Benefits section will allow the user to see the reasons why eating well helps them with their studies.
+  - Below the reasons why, the user will see images of some of the best foods for brain function. This is valuable to the user to have visual representation of some of the foods in the recipes. 
 
 ![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
 
-- __Meetup Times section__
-
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
-
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites for Clean Crave. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media.
 
 ![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
-- __Gallery__
+- __The Recipes page__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - The recipes page will provide the user with recipes for breakfast, lunch, dinner and snacks. 
+  - This section is valuable to the user as...... 
 
 ![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
 
-- __The Sign Up Page__
+- __The Contact Page__
 
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to subscribe to a daily/weekly or monthly newsletter, depending on their preference, where they will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
+  - This page will also allow users to get in contact with Clean Crave. The user will be asked to submit their full name and email address, along with their enquiry.
+
+  __The Submitted Enquiry age / The Newsletter page__
+  
+  - These pages acknowledge the submitted enquiry and subscription sign-up, respectively. They thank the user and have a button to return to the recipes page.
 
 ![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
