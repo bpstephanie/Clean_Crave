@@ -195,6 +195,7 @@ main {
     overflow: hidden;
     max-width: 250px;
     margin-bottom: 50px;
+    margin:auto;
 }
 
 .recipecard-img {
