@@ -190,12 +190,11 @@ main {
 .recipecard {
     background-color: rgb(193, 231, 212);
     color: black;
-    margin: 5%;
+    margin: 5% 10%;
     border: 2px solid #0C5914; 
     overflow: hidden;
     max-width: 250px;
     margin-bottom: 50px;
-    margin:auto;
 }
 
 .recipecard-img {
@@ -218,6 +217,10 @@ main {
 
 .ingredient-list {
     padding-left: 10%;
+}
+
+.method-list {
+    padding-left: 5%;
 }
 
 .nutritional-flex {
@@ -463,6 +466,9 @@ footer {
     }
 
     /* Recipes page */
+    #recipes > h2 {
+        padding-top: 5%;
+    }
     .recipecard {
         display:flex;
         flex-direction: row;
