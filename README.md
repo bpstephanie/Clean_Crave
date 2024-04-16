@@ -67,37 +67,37 @@ Home page
 ![index.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.png)
 ![index.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.2.png)
 
-Removed the <a> tag from the button, added a form tag.
-Corrected <p1> to <p>
-Changed id=”benefits-point” to a class.
-Same as point 3
-Same as point 2
-Same as point 3
-Same as point 3
-Same as point 2
+1. Removed the <a> tag from the button, added a form tag.
+2. Corrected <p1> to <p>
+3. Changed id=”benefits-point” to a class.
+4. Same as point 3
+5. Same as point 2
+6. Same as point 3
+7. Same as point 3
+8. Same as point 2
 
 Recipes page
 ![recipes.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-recipe-page-1.png)
 
-Added alt and aria-label attributes to image
-Removed <p1> tag
-Same as point 1
-Same as point 2
-Same as point 1
-Removed </p1> tag
+1. Added alt and aria-label attributes to image
+2. Removed <p1> tag
+3. Same as point 1
+4. Same as point 2
+5. Same as point 1
+6. Removed </p1> tag
 
 Contact page
 ![contact.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.png)
 ![contact.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.2.png)
 
-Changed id=”first-name” to “first-name-N” for the Newsletter form.
-Changed id=”first-name” to “first-name-E” for the Enquiry form.
-Changed id=”last-name” to “last-name-N” for the Newsletter form.
-Changed id=”last-name” to “last-name-E” for the Enquiry form.
-Changed id=”email-address” to “email-address-N” for the Newsletter form.
-Changed id=”email-address” to “email-address-E” for the Enquiry form.
-Changed rows=”auto” to rows=”10”
-Changed cols=”auto” to cols=”20”
+1. Changed id=”first-name” to “first-name-N” for the Newsletter form.
+2. Changed id=”first-name” to “first-name-E” for the Enquiry form.
+3. Changed id=”last-name” to “last-name-N” for the Newsletter form.
+4. Changed id=”last-name” to “last-name-E” for the Enquiry form.
+5. Changed id=”email-address” to “email-address-N” for the Newsletter form.
+6. Changed id=”email-address” to “email-address-E” for the Enquiry form.
+7. Changed rows=”auto” to rows=”10”
+8. Changed cols=”auto” to cols=”20”
 
 
 
