@@ -89,6 +89,29 @@ nav {
     font-size: 170%;
 }
 
+/* Polka-dot background */
+.polka-dot {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 234, 214);
+    background-image: radial-gradient(rgba(12, 89, 20, 0.4) 25%, transparent 11%), radial-gradient(rgba(12, 89, 20, 0.4) 15%, transparent 11%);
+    background-size: 130px 130px;
+    background-position: 0 0, 65px 65px;
+    background-repeat: repeat;
+
+}
+
+.polka-dot-pink {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 234, 214);
+    background-image: radial-gradient(rgba(238, 102, 102, 0.4) 25%, transparent 11%), radial-gradient(rgba(238, 102, 102, 0.4) 15%, transparent 11%);
+    background-size: 130px 130px;
+    background-position: 0 0, 65px 65px;
+    background-repeat: repeat;
+
+}
+
 /* Main content */
 main {
     background-color: #F0EAD6;
@@ -151,12 +174,18 @@ main {
 
 /* Benefits section*/
 #benefits {
-    background-color: #F0EAD6;
     padding: 15px 0 5px 0;
 }
 
-#benefits h2 {
-    font-size: 200%;
+.benefits-header {
+    font-family: 'Merienda', cursive;
+    font-size: 110%;
+    text-align: center;
+    color:#254328;
+    margin: 10%, 3%, 2%, 3%;
+    padding: 1%;
+    background-color: #F0EAD6;
+    border-radius: 5%;
 }
 
 #benefits h2,
@@ -200,12 +229,15 @@ main {
 }
 
 /* Recipes page */
-#recipes > h2 {
+.recipe-header {
     font-family: 'Merienda', cursive;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
     color: #254328;
-    padding-top: 10%;
+    padding: 3%;
+    margin: 10% 3% 2% 3%;
+    background-color: #F0EAD6;
+    border-radius: 5%;
 }
 .recipecard {
     background-color: rgb(193, 231, 212);
@@ -306,7 +338,10 @@ main {
     font-family: 'Merienda', cursive;
     font-size: 100%;
     text-align: center;
-    padding-top: 40%;
+    margin: 40% 15%;
+    color: #254328;
+    background-color: #F0EAD6;
+    border-radius: 5%;
 }
 
 /* Footer */
@@ -344,6 +379,13 @@ footer {
         column-count: 2;
         column-gap: 0;
     }
+
+    /* Newsletter and submitted enquiry styles */
+    #successful-signup,
+    #successful-enquiry {
+        margin: 20% 15%;
+        font-size: 200%;
+}
 }
 
 /* Media query: tablets (768px and up)*/
@@ -419,29 +461,10 @@ footer {
         flex-basis: 33%;
     }
 
-    /* Newsletter and submitted enquiry styles*/
-    #successful-signup,
-    #successful-enquiry {
-        font-size: 200%;
-        padding-top: 20%;
-        padding-left: 50px;
-        padding-right: 50px;
-
-    }
-
 }
 
 /* Media query: large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
-
-    /* Newsletter and submitted enquiry styles*/
-    #successful-signup,
-    #successful-enquiry {
-        font-size: 300%;
-        padding-top: 10%;
-        padding-left: 200px;
-        padding-right: 200px
-    }
 
     /* Hero image section */
     #hero-image {
@@ -478,6 +501,13 @@ footer {
     #contact-forms > form {
         flex:1;
     }
+
+    /* Newsletter and submitted enquiry styles*/
+    #successful-signup,
+    #successful-enquiry {
+        margin: 10% 5%;
+        font-size: 300%;
+    }
 }
 
 /* Media query: large desktop (1200px and up)*/
@@ -494,9 +524,10 @@ footer {
     }
 
     /* Recipes page */
-    #recipes > h2 {
+    .recipe-header {
         padding-top: 5%;
     }
+
     .recipecard {
         display:flex;
         flex-direction: row;
@@ -518,6 +549,13 @@ footer {
 
     .ingmeth-container > div {
         flex: 1;
+    }
+
+    /* Newsletter and submitted enquiry styles*/
+    #successful-signup,
+    #successful-enquiry {
+        margin: 10% 5%;
+        font-size: 300%;
     }
 
 }
