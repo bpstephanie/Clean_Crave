@@ -21,7 +21,9 @@ Clean Crave is a site to provide healthy meals that aid people whilst studying. 
   - The landing includes a photograph which changes depending on the size of the screen you are accessing the site on. Each have a text overlay with the premise of the site and a call-to-action button that leads them directly to the recipes page. 
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-![Landing Page]
+![Landing Page Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_mobile.png)
+![Landing Page Tablet](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/tablet.png)
+![Landing Page Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/desktop.png)
 
 - __Benefits section__
 

@@ -180,6 +180,7 @@ main {
 }
 
 /* Recipes page */
+
 #recipes > h2 {
     font-family: 'Merienda', cursive;
     font-size: 300%;
@@ -190,11 +191,11 @@ main {
 .recipecard {
     background-color: rgb(193, 231, 212);
     color: black;
-    margin: 5% 10%;
+    margin: 5% auto 50px;
     border: 2px solid #0C5914; 
     overflow: hidden;
     max-width: 250px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .recipecard-img {
