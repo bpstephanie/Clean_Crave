@@ -152,7 +152,7 @@ main {
 /* Benefits section*/
 #benefits {
     background-color: #F0EAD6;
-    padding: 15px 0;
+    padding: 15px 0 5px 0;
 }
 
 #benefits h2 {
@@ -404,7 +404,8 @@ footer {
     }
 
     .benefits-points {
-        padding: 5% 5%;
+        padding: 5%;
+        margin: 5%;
     }
 
     /* Brainfood gallery */
@@ -461,7 +462,8 @@ footer {
     }
 
     .benefits-points {
-        margin: 10% 3%;
+        margin: 3%;
+        padding: 3%;
     }
 
     #benefits h2 {
