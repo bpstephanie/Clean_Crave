@@ -232,8 +232,9 @@ main {
 }
 
 /* Contact page styles */
-#contact-forms {
-    background: url("../images/smoothiebowlspread.webp") no-repeat center center/cover;
+#contact-image {
+    background: url("../images/smoothiebowlspread.webp");
+    background-size: cover;
 }
 
 #signup-form, #enquiry-form {
@@ -436,6 +437,15 @@ footer {
 
     #brainfood img {
         height: 280px;
+    }
+
+    /* Contact page styles */
+    #contact-forms {
+        display: flex;
+    }
+
+    #contact-forms > form {
+        flex:1;
     }
 }
 
