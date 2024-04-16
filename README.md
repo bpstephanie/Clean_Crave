@@ -53,7 +53,7 @@ Clean Crave is a site to provide healthy meals that aid people whilst studying. 
 
   __The Submitted Enquiry age / The Newsletter page__
   
-  - These pages acknowledge the submitted enquiry and subscription sign-up, respectively. They thank the user and have a button to return to the recipes page.
+  - These pages acknowledge the user has submitted an enquiry and signed up to a newsletter subscription. They thank the user and have a button to return to the home page and recipes page, respectively.
 
 ![Sign Up]
 
