@@ -159,7 +159,7 @@ main {
     text-align: center;
 }
 
-#benefits-points {
+.benefits-points {
     background-color: #0C5914;
     color: #ffffff;
     margin: 10% 10%;
