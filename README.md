@@ -1,8 +1,10 @@
 # Clean Crave
 
-Clean Crave is a site to provide healthy meals that aid people whilst studying. It can be difficult to know what foods are good for brain function and concentrating which is why this site exists. It is targeted at students and designed to take away the stress of thinking what to prepare on a daily basis.
+Clean Crave is a site to provide healthy meals that aid people whilst studying. The site is targeted at students who want to know what foods are good for brain function and concentrating. The site will be useful to help take away the stress of thinking what to prepare on a daily basis.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean Crave</a>
+
+![Responsive Mockup](https://github.com/bpstephanie/Clean_Crave/blob/main/media/responsive-mockup.png)
 
 ## Features 
 
