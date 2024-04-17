@@ -8,7 +8,7 @@ Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean 
 
 ## Wireframes
 
-The wireframes for Clean Crave were produced in <a href="https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJSMse7lgXFB9cNqU7zcdlO_VQcy3jXX1J7YQbar6kNPPKscVweNuhBoCV7MQAvD_BwE">Balsamiq</a>. There a wireframes for full desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
+The wireframes for Clean Crave were produced in [Balsamiq](https://balsamiq.com). There a wireframes for full desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
 
 Desktop wireframes:
 
@@ -24,7 +24,7 @@ Mobile wireframes:
 
 ## Site Structure
 
-Clean Crave website has three pages. The home page is the default landing page, recipes page and contact page are accessible through the navigation menu. There is another link to the recipes page through the call-to-action button on the landing page image. This is for users who want to go straight to the recipes section.
+Clean Crave website has three pages. The [home page](index.html) is the default landing page, [recipes page](recipes.html) and [contact page](contact.html) are accessible through the navigation menu. There is another link to the recipes page through the call-to-action button on the landing page image. This is for users who want to go straight to the recipes section.
 
 ## Design Choices
 
@@ -41,7 +41,7 @@ Clean Crave website has three pages. The home page is the default landing page, 
 
 ## Features 
 
-Clean Crave site is set up to be easy to use and friendlt. It contains features that the user will be familiar with, such as a navigation bar, burger icon with dropdown menu, contact forms and social media icons in the footer.
+Clean Crave site is set up to be easy to use and friendly. It contains features that the user will be familiar with, such as a navigation bar, burger icon with dropdown menu, contact forms and social media icons in the footer.
 
 ## Existing Features
 
@@ -57,7 +57,7 @@ Mobile navigation menu:
 ![Nav Bar Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile.png)
 ![Nav Bar Mobile Dropdown Menu](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile_dropdown.png)
 
-- __The landing page image__
+- __The Landing Page Image__
 
   - The landing page includes a photograph which changes depending on the size of the screen you are accessing the site on. Each have a text overlay with the premise of the site and a call-to-action button that leads them directly to the recipes page. 
   - This section introduces the user to Clean Crave with an image of people cooking healthy food to grab their attention.
@@ -66,13 +66,13 @@ Mobile navigation menu:
 ![Landing Page Tablet](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_tablet.png)
 ![Landing Page Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_desktop.png)
 
-- __Benefits section__
+- __The Benefits Section__
 
   - The Benefits section is located below the landing page image. It will allow the user to see the reasons why eating well helps them with their studies. It is intended to attract the user to want to see the recipes available and give more insight into why what we eat is important.
 
 ![Benefits Section](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/benefits_section.png)
 
-- __Benefits section gallery / Brain food gallery__
+- __The Benefits Section Gallery / Brain Food Gallery__
   - Below the benefits section, the gallery is located. These images show some of the best foods for  brain function. They each have a text overlay stating what they are. This gallery is valuable to users who are visual learners. 
   - The images and text overlay are responsively styled for different screen sizes.
 
@@ -85,7 +85,7 @@ Mobile navigation menu:
 
 ![Footer](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/footer.png)
 
-- __The Recipes page__
+- __The Recipes Page__
 
   - The recipes page will provide the user with recipes for breakfast, lunch and dinner. 
   - Each recipe has an image to give the user a visual representation of what the recipe makes.
@@ -93,7 +93,7 @@ Mobile navigation menu:
   - This page is responsive to different screen sizes.
 ![Recipes Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/recipespage.png)  
 
-- __The Contact page__
+- __The Contact Page__
 
   - This page will allow the user to subscribe to a daily, weekly or monthly newsletter, depending on their preference, where they will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
   - This page will also allow users to get in contact with Clean Crave. The user will be asked to submit their full name and email address, along with their enquiry.
@@ -101,14 +101,14 @@ Mobile navigation menu:
 
 ![Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/contactpage.png) 
 
-   __Newsletter page__
+   __Newsletter Page__
 
    - This page acknowledges the user has subscribed to the newsletter. For this project it validates the form only.
   - It provides a link back to the recipes page as well as having the navigation menu and social media links in the footer.
 
 ![Newsletter](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/newsletter.png)
 
-  __The Submitted enquiry page__
+  __The Submitted Enquiry Page__
   
   - This page acknowledges the user has submitted an enquiry. For this project it validates the form only.
   - It provides a link back to the home page as well as having the navigation menu and social media links in the footer.
@@ -124,86 +124,84 @@ Mobile navigation menu:
 - A share button for users to share recipes with friends.
 
 ## Technologies Used
-- <a href="https://html.spec.whatwg.org/">HTML5</a>
-- <a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a>
-- <a href="https://balsamiq.com/">Balsamiq</a>
-- <a href="https://github.com/">Github</a>
-- <a href="https://www.gitpod.io/">Gitpod</a>
+* [HTML5](https://html.spec.whatwg.org/) - provides the content and structure for the website.
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html) - provides the styling.
+* [Balsamiq](https://balsamiq.com/wireframes/) - used to create the wireframes.
+* [Gitpod](https://www.gitpod.io/#get-started) - used to deploy the website.
+* [Github](https://github.com/) - used to host and edit the website.
 
 ## Testing 
 
-Please refer <a href="TESTING.md">here</a> for more information about testing on Clean Crave.
-
-First testing on HTML W3C validator:
-
-Home page 
-![index.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.png)
-![index.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.2.png)
-
-1. Removed the <a> tag from the button, added a form tag.
-2. Corrected <p1> to <p>
-3. Changed id=”benefits-point” to a class.
-4. Same as point 3
-5. Same as point 2
-6. Same as point 3
-7. Same as point 3
-8. Same as point 2
-
-Recipes page
-![recipes.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-recipe-page-1.png)
-
-1. Added alt and aria-label attributes to image
-2. Removed <p1> tag
-3. Same as point 1
-4. Same as point 2
-5. Same as point 1
-6. Removed </p1> tag
-
-Contact page
-![contact.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.png)
-![contact.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.2.png)
-
-1. Changed id=”first-name” to “first-name-N” for the Newsletter form.
-2. Changed id=”first-name” to “first-name-E” for the Enquiry form.
-3. Changed id=”last-name” to “last-name-N” for the Newsletter form.
-4. Changed id=”last-name” to “last-name-E” for the Enquiry form.
-5. Changed id=”email-address” to “email-address-N” for the Newsletter form.
-6. Changed id=”email-address” to “email-address-E” for the Enquiry form.
-7. Changed rows=”auto” to rows=”10”
-8. Changed cols=”auto” to cols=”20”
-
-
-
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### Unfixed Bugs
+Please refer [**_here_**](TESTING.md) for more information about testing on Clean Crave.
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+### **To Deploy the Project**
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+This site was deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
+  1. In the GitHub repository, navigate to the Settings tab 
+  2. Next, navigate to the Pages tab on the left hand side.
+  3. Under Source, select main from the Branch dropdown menu. Then click save.
+  4. Once the main branch has been selected, the page will automatically be refreshed with a detailed ribbon display to indicate the successful deployment. 
 
+![How To Deploy](https://github.com/bpstephanie/Clean_Crave/blob/main/media/deploy_1.png)
+
+The live link can be found here - https://bpstephanie.github.io/Clean_Crave/recipes.html
+
+### **To Fork the Project**
+
+A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. The steps to fork the repository are as follows:
+
+  1. Log in to GitHub and locate the repository.
+  2. On the right hand side of the page, inline with the repository name, is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
+  
+![How To Fork](https://github.com/bpstephanie/Clean_Crave/blob/main/media/fork_1.png)
+
+### **To Clone the Project**
+
+The steps to clone a project from GitHub are as follows:
+
+  1. Under the repository’s name, click on the code tab.
+  2. Copy the URL under the Clone with HTTPS section.
+  3. In an IDE of your choice, open Git Bash.
+  4. Change the current working directory to the location of where the cloned directory will be made.
+  5. Type 'git clone' then paste the URL copied from GitHub.
+  6. Upon pressing enter, the local clone will be created.
+
+![How To Clone](https://github.com/bpstephanie/Clean_Crave/blob/main/media/clone_1.png)
 
 ## Credits 
 
-### Content 
+Wireframes: [Balsamiq](https://balsamiq.com)
+Favicon: [Favicon](https://favicon.io/)
+Fonts: [Google Fonts](https://fonts.google.com/)
+Icons: [Fontawesome](https://fontawesome.com/)
+Colour Palettes: [Coolors](https://www.bbcgoodfood.com/)
+Mockup: [Techsini](https://techsini.com/)
+Chrome for Developers: [Dev Tools](https://developer.chrome.com/docs/devtools)
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+The polka-dot background was learned from [30 Seconds of Code](https://www.30secondsofcode.org/css/s/polka-dot-pattern/). 
+Instructions on how to implement the text overlay on the brain food gallery was taken from [Banner Bear](https://www.bannerbear.com/blog/)
+
+Help with flexbox came from [CSS Tricks](https://css-tricks.com/)
+
+Help with troubleshooting came from [Stack Overflow](https://stackoverflow.com/)
+
+### Content
+
+The information on the home page is from [Nottingham.ac.uk](https://www.nottingham.ac.uk/currentstudents/wellbeing/healthyu/index.aspx) and [Sleep Foundation](https://www.sleepfoundation.org/nutrition).
+
+The recipes on the recipes page are from [BBC Good Food](https://www.bbcgoodfood.com/) and [Eating Well](https://www.eatingwell.com/)
 
 ### Media
 
-- The photos used..
+The images are from [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [BBC Good Food](https://www.bbcgoodfood.com/).
+
+The images were optimised with [Tinypng](https://tinypng.com/).
+
+## Acknowledgements
+
+Clean Crave has been completed as a Portfolio 1 Project, part of the Full Stack Software Developer Diploma at Code Institute. I would like to thank my Code Institue mentor,  Precious Ijege, the Slack community, and everyone at Code Institute for their help and support. 
+
+Stephanie Bell 2021.
