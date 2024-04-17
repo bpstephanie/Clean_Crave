@@ -11,15 +11,18 @@ Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html" target
 The wireframes for Clean Crave were produced in <a href="https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJSMse7lgXFB9cNqU7zcdlO_VQcy3jXX1J7YQbar6kNPPKscVweNuhBoCV7MQAvD_BwE">Balsamiq</a>. There a wireframes for full desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
 
 Desktop wireframes:
+
 <img src="media/wireframes/desktop-wireframe-homepage.png" width="33%" height="33%">
-<img src="media/wireframes/desktop-wireframe-recipespage-version1.png.png" width="33%" height="33%">
+<img src="media/wireframes/desktop-wireframe-recipespage-version1.png" width="33%" height="33%">
 <img src="media/wireframes/desktop-wireframe-contactpage.png" width="33%" height="33%">
 
 Alternate Recipes page wireframes:
 
 <img src="media/wireframes/desktop-wireframe-recipespage-version2.png" width="50%" height="50%"><img src="media/wireframes/desktop-wireframe-recipespage-version3.png" width="50%" height="50%">
 
-<img src="media/wireframes/mobile-wireframe-homepage.png" width="300" height="100"><img src="media/wireframes/mobile-wireframe-recipespage.png" width="300" height="100"><img src="media/wireframes/mobile-wireframe-contactpage.png" width="300" height="100">
+Mobile wireframes:
+
+<img src="media/wireframes/mobile-wireframe-homepage.png" width="33%" height="33%"><img src="media/wireframes/mobile-wireframe-recipespage.png" width="33%" height="33%"><img src="media/wireframes/mobile-wireframe-contactpage.png" width="33%" height="33%">
 
 
 ## Features 
