@@ -1,46 +1,65 @@
-First testing on HTML W3C validator:
+# Testing
 
-Home page 
-![index.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.png)
-![index.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.2.png)
+## Validator Testing
 
-1. Removed the <a> tag from the button, added a form tag.
-2. Corrected <p1> to <p>
-3. Changed id=”benefits-point” to a class.
-4. Same as point 3
-5. Same as point 2
-6. Same as point 3
-7. Same as point 3
-8. Same as point 2
+The Clean Crave site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
 
-Recipes page
+The HTML W3C validator validator results for each page:
+
+Home page:
+![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_home.png)
+
+Recipes page:
+![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_recipes.png)
+
+Contact page:
+![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_contact.png)
+
+Newsletter page:
+![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_newsletter.png)
+
+Submitted Enquiry pages:
+![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_submittedenquiry.png)
+
+The CSS Validator results are:
+![(Jigsaw) Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/css_valid.png)
+
+## Responsiveness Test
+
+The responsive design tests were carried out by [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+
+## Browser Compatability
+
+Clean Crave was tested on  Google Chrome, Safair, Mozilla Firefox, Microsoft Edge, iOS and Andriod with no visible issues for the user. [BrowserStack](https://www.browserstack.com/) was used to test functionality, appearance and responsiveness. 
+
+## Known Bugs
+
+### Resolved
+
+During validation of the HTML pages, 4 bugs came up:
+  - On the Home page:
+
+  1. I had added a button inside an 'a' tag which is not allowed, therefore I removed the 'a' tag and added a form tag.
+
+  2. I had mistakenly written 'p1' instead of 'p'. I corrected this.
+
+  3. I had used the same id attribute twice, therefore I changed both to a class.
+
+ ![index.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-home-page-1.png)
+
+
+
+  - Recipes page
 ![recipes.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-recipe-page-1.png)
 
-1. Added alt and aria-label attributes to image
-2. Removed <p1> tag
-3. Same as point 1
-4. Same as point 2
-5. Same as point 1
-6. Removed </p1> tag
-
-Contact page
-![contact.html validator testing](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.png)
-![contact.html validator testing cont..](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html-contact-page-1.2.png)
-
-1. Changed id=”first-name” to “first-name-N” for the Newsletter form.
-2. Changed id=”first-name” to “first-name-E” for the Enquiry form.
-3. Changed id=”last-name” to “last-name-N” for the Newsletter form.
-4. Changed id=”last-name” to “last-name-E” for the Enquiry form.
-5. Changed id=”email-address” to “email-address-N” for the Newsletter form.
-6. Changed id=”email-address” to “email-address-E” for the Enquiry form.
-7. Changed rows=”auto” to rows=”10”
-8. Changed cols=”auto” to cols=”20”
-
-### Validator Testing 
-
-- HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+1. I had not yet added an alt attribute to my image. I corrected this.
 
 ### Unfixed Bugs
+
+ - The data from the form doesn't push anywhere. If I were ever to do a true deployment of this site I would solve this issue.
+
+## Additional Testing
+
+The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse). The results were as follows:
+
+![Google Lighthouse Rating](https://github.com/bpstephanie/Clean_Crave/blob/main/media/lighthouse_rating.png)
