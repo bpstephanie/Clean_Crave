@@ -9,13 +9,13 @@ Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean 
 # Contents
 
 * [**User Experience UX**](<#user-experience-ux>)
-    * [Wireframes](<#wireframes>)
-    * [Site Structure](<#site-structure>)
-    * [Design Choices](<#design-choices>)
-    *  [Typography](<#typography>)
-    *  [Colour Scheme](<#colour-scheme>)
+  * [Wireframes](<#wireframes>)
+  * [Site Structure](<#site-structure>)
+  * [Design Choices](<#design-choices>)
+  * [Typography](<#typography>)
+  * [Colour Scheme](<#colour-scheme>)
 * [**Features**](<#features>)
-    * [**Existing Features](<#existing-features>)
+  * [**Existing Features**](<#existing-features>)
       * [**Home**](<#navigation-bar>)
           * [Navigation bar](<#navigation-bar>)
           * [Landing Page Image](<#landing-page-image>)
@@ -35,10 +35,11 @@ Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean 
   * [**To Fork the Project**](<#to-fork-the-project>)
   * [**To Clone the Project**](<#to-clone-the-project>)
 * [**Credits**](<#credits>)
-    * [**Content**](<#content>)
-    * [**Media**](<#media>)
-*  [**Acknowledgements**](<#acknowledgements>)
+  * [**Content**](<#content>)
+  * [**Media**](<#media>)
+* [**Acknowledgements**](<#acknowledgements>)
 
+# User Experience UX
 ## Wireframes
 
 The wireframes for Clean Crave were produced in [Balsamiq](https://balsamiq.com). There a wireframes for desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
