@@ -12,9 +12,7 @@ The wireframes for Clean Crave were produced in <a href="https://balsamiq.com/?g
 
 Desktop wireframes:
 
-<img src="media/wireframes/desktop-wireframe-homepage.png" width="33%" height="33%">
-<img src="media/wireframes/desktop-wireframe-recipespage-version1.png" width="33%" height="33%">
-<img src="media/wireframes/desktop-wireframe-contactpage.png" width="33%" height="33%">
+<img src="media/wireframes/desktop-wireframe-homepage.png" width="33%" height="33%"><img src="media/wireframes/desktop-wireframe-recipespage-version1.png" width="33%" height="33%"><img src="media/wireframes/desktop-wireframe-contactpage.png" width="33%" height="33%">
 
 Alternate Recipes page wireframes:
 
@@ -23,6 +21,22 @@ Alternate Recipes page wireframes:
 Mobile wireframes:
 
 <img src="media/wireframes/mobile-wireframe-homepage.png" width="33%" height="33%"><img src="media/wireframes/mobile-wireframe-recipespage.png" width="33%" height="33%"><img src="media/wireframes/mobile-wireframe-contactpage.png" width="33%" height="33%">
+
+## Site Structure
+
+Clean Crave website has three pages. The home page is the default landing page, recipes page and contact page are accessible through the navigation menu. There is another link to the recipes page through the call-to-action button on the landing page image. This is for users who want to go straight to the recipes section.
+
+## Design Choices
+
+  - ### Typography 
+    The fonts chosen were 'Merienda' for the main headings and 'Lato' for the text in the body. Their fall back fonts are cursive and sans-serif, respectively.
+      * 'Merienda' was chosen for the headings to create and eye-catching title.
+      * 'Lato' was chosen for its easy to read properties.
+  
+  - ### Colour Scheme
+    The colour scheme chosen was green, beige and coral. Green was chosen for its healthy conotations. Clean Crave wants its users to know that the knowledge and recipes on the site are good for the users' wellbeing and health.
+
+![Colour Palette](https://github.com/bpstephanie/Clean_Crave/blob/main/media/colour_palette.png)
 
 
 ## Features 
@@ -45,8 +59,8 @@ Mobile wireframes:
   - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
 ![Landing Page Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_mobile.png)
-![Landing Page Tablet](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/tablet.png)
-![Landing Page Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/desktop.png)
+![Landing Page Tablet](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_tablet.png)
+![Landing Page Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_desktop.png)
 
 - __Benefits section__
 
