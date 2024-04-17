@@ -132,7 +132,7 @@ main {
 
 #hero-image h2 {
     font-size: 140%;
-    font-family: 'Lato' , sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 #hero-text {
@@ -158,7 +158,7 @@ main {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 2px;
-    
+
 }
 
 #hero-text button:hover {
@@ -167,9 +167,9 @@ main {
     color: #F0EAD6;
 }
 
-#hero-text > button:hover {
+#hero-text>button:hover {
     background-color: #0C5914;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 /* Benefits section*/
@@ -181,7 +181,7 @@ main {
     font-family: 'Merienda', cursive;
     font-size: 110%;
     text-align: center;
-    color:#254328;
+    color: #254328;
     margin: 10%, 3%, 2%, 3%;
     padding: 1%;
     background-color: #F0EAD6;
@@ -217,7 +217,7 @@ main {
 
 .overlay-text {
     position: absolute;
-    font-family: 'Merienda' , cursive;
+    font-family: 'Merienda', cursive;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
@@ -239,11 +239,12 @@ main {
     background-color: #F0EAD6;
     border-radius: 5%;
 }
+
 .recipecard {
     background-color: rgb(193, 231, 212);
     color: black;
     margin: 5% auto 50px;
-    border: 2px solid #0C5914; 
+    border: 2px solid #0C5914;
     overflow: hidden;
     max-width: 250px;
 }
@@ -292,7 +293,8 @@ main {
     background-size: cover;
 }
 
-#signup-form, #enquiry-form {
+#signup-form,
+#enquiry-form {
     background-color: rgba(238, 102, 102, 0.8);
     color: white;
     margin: 8%;
@@ -306,14 +308,16 @@ main {
     border-radius: 3px;
 }
 
-#signup-form > h3, #enquiry-form > h3 {
+#signup-form>h3,
+#enquiry-form>h3 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 120%;
     margin-bottom: 5%;
 }
 
-#signup-form button, #enquiry-form button {
+#signup-form button,
+#enquiry-form button {
     transition-duration: 0.4s;
     background-color: #F0EAD6;
     border: 2px solid #0C5914;
@@ -327,11 +331,13 @@ main {
     border-radius: 2px;
 }
 
-#signup-form button:hover, #enquiry-form button:hover {
+#signup-form button:hover,
+#enquiry-form button:hover {
     background-color: #0C5914;
     border: 2px solid #F0EAD6;
     color: #F0EAD6;
 }
+
 /* Newsletter and submitted enquiry styles */
 #successful-signup,
 #successful-enquiry {
@@ -364,6 +370,7 @@ footer {
 
 /* Media query: landscape phones(576px and up)*/
 @media screen and (min-width: 576px) {
+
     /* Hero image section */
     #hero-image h2 {
         font-size: 180%;
@@ -390,7 +397,7 @@ footer {
     #successful-enquiry {
         margin: 20% 15%;
         font-size: 200%;
-}
+    }
 }
 
 /* Media query: tablets (768px and up)*/
@@ -435,7 +442,7 @@ footer {
 
     /* Hero image section */
     #hero-image {
-        background: url("../images/couplecooking.webp") no-repeat center center/cover; 
+        background: url("../images/couplecooking.webp") no-repeat center center/cover;
         /*background: url("../images/cookinglarger.webp") no-repeat center center/cover;*/
         height: 800px;
         width: 100%;
@@ -471,9 +478,9 @@ footer {
         margin: 5% 30% 2% 30%;
     }
 
-          
+
     .recipecard {
-        display:flex;
+        display: flex;
         flex-direction: column;
         max-width: 50%;
         max-height: 50%;
@@ -510,6 +517,7 @@ footer {
     #benefits h2 {
         font-size: 300%;
     }
+
     /* Recipes page styles */
     .recipe-header {
         margin: 5% 35% 2% 35%;
@@ -520,8 +528,8 @@ footer {
         display: flex;
     }
 
-    #contact-forms > form {
-        flex:1;
+    #contact-forms>form {
+        flex: 1;
     }
 
     /* Newsletter and submitted enquiry styles*/
@@ -534,6 +542,7 @@ footer {
 
 /* Media query: large desktop (1200px and up)*/
 @media screen and (min-width: 1200PX) {
+
     /* Brainfood gallery*/
     #brainfood {
         display: flex;
@@ -552,8 +561,8 @@ footer {
 
     .recipecard {
         margin-left: 5%;
-        margin-right: 5%; 
-        display:flex;
+        margin-right: 5%;
+        display: flex;
         flex-direction: row;
         max-width: 100%;
         max-height: 100%;
@@ -570,7 +579,7 @@ footer {
         justify-content: space-evenly;
     }
 
-    .ingmeth-container > div {
+    .ingmeth-container>div {
         flex: 1;
     }
 
