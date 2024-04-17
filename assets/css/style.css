@@ -18,6 +18,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #0C5914;
@@ -182,7 +186,7 @@ main {
     font-size: 110%;
     text-align: center;
     color: #254328;
-    margin: 10%, 3%, 2%, 3%;
+    margin: 10% 3% 2% 3%;
     padding: 1%;
     background-color: #F0EAD6;
     border-radius: 5%;
