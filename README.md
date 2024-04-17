@@ -2,7 +2,7 @@
 
 Clean Crave is a site to provide healthy meals that aid people whilst studying. The site is targeted at students who want to know what foods are good for brain function and concentrating. The site will be useful to help take away the stress of thinking what to prepare on a daily basis.
 
-Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html" target="_blank">Clean Crave</a>
+Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean Crave</a>
 
 ![Responsive Mockup](https://github.com/bpstephanie/Clean_Crave/blob/main/media/responsive-mockup.png)
 
@@ -51,7 +51,9 @@ Clean Crave site is set up to be easy to use and friendlt. It contains features 
   - On mobile devices, access to the Home page, Recipes page and Contact page is from the dropdown menu by clicking the burger icon.
   - This section will allow the user to easily navigate from page to page across all devices without having to use the ‘back’ button. 
 
+Desktop navigation menu:
 ![Nav Bar Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_desktop.png)
+Mobile navigation menu:
 ![Nav Bar Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile.png)
 ![Nav Bar Mobile Dropdown Menu](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile_dropdown.png)
 
@@ -85,27 +87,52 @@ Clean Crave site is set up to be easy to use and friendlt. It contains features 
 
 - __The Recipes page__
 
-  - The recipes page will provide the user with recipes for breakfast, lunch, dinner and snacks. 
-  - This section is valuable to the user as...... 
+  - The recipes page will provide the user with recipes for breakfast, lunch and dinner. 
+  - Each recipe has an image to give the user a visual representation of what the recipe makes.
+  - This section would be updated regularly to add more recipes.
+  - This page is responsive to different screen sizes.
+![Recipes Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/recipespage.png)  
 
-![Gallery]
+- __The Contact page__
 
-- __The Contact Page__
-
-  - This page will allow the user to subscribe to a daily/weekly or monthly newsletter, depending on their preference, where they will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to subscribe to a daily, weekly or monthly newsletter, depending on their preference, where they will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
   - This page will also allow users to get in contact with Clean Crave. The user will be asked to submit their full name and email address, along with their enquiry.
+  - This page is responsive to different screen sizes.
 
-  __The Submitted Enquiry age / The Newsletter page__
+![Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/contactpage.png) 
+
+   __Newsletter page__
+
+   - This page acknowledges the user has subscribed to the newsletter. For this project it validates the form only.
+  - It provides a link back to the recipes page as well as having the navigation menu and social media links in the footer.
+
+![Newsletter](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/newsletter.png)
+
+  __The Submitted enquiry page__
   
-  - These pages acknowledge the user has submitted an enquiry and signed up to a newsletter subscription. They thank the user and have a button to return to the home page and recipes page, respectively.
+  - This page acknowledges the user has submitted an enquiry. For this project it validates the form only.
+  - It provides a link back to the home page as well as having the navigation menu and social media links in the footer.
 
-![Sign Up]
+![Submitted Enquiry](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/submittedenquiry.png)
+
 
 ### Features Left to Implement
 
-- Another feature idea
+- Print buttons for the recipe cards.
+- A filter system for users to choose recipes with key ingredients.
+- A gallery with all the recipe images and links for users to choose by looking rather than by reading.
+- A share button for users to share recipes with friends.
+
+## Technologies Used
+- <a href="https://html.spec.whatwg.org/">HTML5</a>
+- <a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a>
+- <a href="https://balsamiq.com/">Balsamiq</a>
+- <a href="https://github.com/">Github</a>
+- <a href="https://www.gitpod.io/">Gitpod</a>
 
 ## Testing 
+
+Please refer <a href="TESTING.md">here</a> for more information about testing on Clean Crave.
 
 First testing on HTML W3C validator:
 
