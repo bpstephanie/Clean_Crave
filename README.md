@@ -11,15 +11,17 @@ Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html" target
 The wireframes for Clean Crave were produced in <a href="https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJSMse7lgXFB9cNqU7zcdlO_VQcy3jXX1J7YQbar6kNPPKscVweNuhBoCV7MQAvD_BwE">Balsamiq</a>. There a wireframes for full desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
 
 Desktop wireframes:
-![Desktop Wireframe Home Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-homepage.png)
-![Desktop Wireframe Recipe Page - Version 1](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version1.png)
-![Desktop Wireframe Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-contactpage.png)
+![Desktop Wireframe Home Page]<img src="media/wireframes/desktop-wireframe-homepage.png" width="200" height="100">
+![Desktop Wireframe Recipe Page - Version 1]<img src="media/wireframes/desktop-wireframe-recipespage-version1.png.png" width="200" height="100">
+![Desktop Wireframe Contact Page]<img src="media/wireframes/desktop-wireframe-contactpage.png" width="200" height="100">
 
 ALternate Recipes page wireframes:
-![Desktop Wireframe Recipes Page - Version 2](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version2.png)
-![Desktop Wireframe Recipes Page - Version 3](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version3.png)
+![Desktop Wireframe Recipes Page - Version 2]<img src="media/wireframes/desktop-wireframe-recipespage-version2.png" width="200" height="100">
+![Desktop Wireframe Recipes Page - Version 3]<img src="media/wireframes/desktop-wireframe-recipespage-version3.png" width="200" height="100">
 
-![Mobile Wireframe Home Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-homepage.png) ![Mobile Wireframe Recipes Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-recipespage.png) ![Mobile Wireframe Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-contactpage.png)
+![Mobile Wireframe Home Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-homepage.png) {width=80% height=60%}
+![Mobile Wireframe Recipes Page]<img src="media/wireframes/mobile-wireframe-recipespage.png" width="100" height="50">
+![Mobile Wireframe Contact Page]<img src="media/wireframes/mobile-wireframe-contactpage.png" width="200" height="100">
 
 
 ## Features 
