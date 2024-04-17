@@ -380,6 +380,11 @@ footer {
         column-gap: 0;
     }
 
+    /* Recipes page styles*/
+    .recipe-header {
+        margin: 10% 30% 2% 30%;
+    }
+
     /* Newsletter and submitted enquiry styles */
     #successful-signup,
     #successful-enquiry {
@@ -461,6 +466,11 @@ footer {
         flex-basis: 33%;
     }
 
+    /* Recipes page styles */
+    .recipe-header {
+        margin: 5% 30% 2% 30%;
+    }
+
 }
 
 /* Media query: large devices (laptops and desktops 992px and up)*/
@@ -491,6 +501,10 @@ footer {
 
     #benefits h2 {
         font-size: 300%;
+    }
+    /* Recipes page styles */
+    .recipe-header {
+        margin: 5% 35% 2% 35%;
     }
 
     /* Contact page styles */
