@@ -41,7 +41,9 @@ Clean Crave website has three pages. The home page is the default landing page, 
 
 ## Features 
 
-### Existing Features
+Clean Crave site is set up to be easy to use and friendlt. It contains features that the user will be familiar with, such as a navigation bar, burger icon with dropdown menu, contact forms and social media icons in the footer.
+
+## Existing Features
 
 - __Navigation Bar__
 
@@ -55,8 +57,8 @@ Clean Crave website has three pages. The home page is the default landing page, 
 
 - __The landing page image__
 
-  - The landing includes a photograph which changes depending on the size of the screen you are accessing the site on. Each have a text overlay with the premise of the site and a call-to-action button that leads them directly to the recipes page. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing page includes a photograph which changes depending on the size of the screen you are accessing the site on. Each have a text overlay with the premise of the site and a call-to-action button that leads them directly to the recipes page. 
+  - This section introduces the user to Clean Crave with an image of people cooking healthy food to grab their attention.
 
 ![Landing Page Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_mobile.png)
 ![Landing Page Tablet](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/landingpage_tablet.png)
@@ -64,17 +66,22 @@ Clean Crave website has three pages. The home page is the default landing page, 
 
 - __Benefits section__
 
-  - The Benefits section will allow the user to see the reasons why eating well helps them with their studies.
-  - Below the reasons why, the user will see images of some of the best foods for brain function. This is valuable to the user to have visual representation of some of the foods in the recipes. 
+  - The Benefits section is located below the landing page image. It will allow the user to see the reasons why eating well helps them with their studies. It is intended to attract the user to want to see the recipes available and give more insight into why what we eat is important.
 
-![Club Ethos]
+![Benefits Section](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/benefits_section.png)
+
+- __Benefits section gallery / Brain food gallery__
+  - Below the benefits section, the gallery is located. These images show some of the best foods for  brain function. They each have a text overlay stating what they are. This gallery is valuable to users who are visual learners. 
+  - The images and text overlay are responsively styled for different screen sizes.
+
+![Benefits Section Gallery / Brain Food Gallery](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/brainfood_gallery.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites for Clean Crave. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-![Footer]
+![Footer](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/footer.png)
 
 - __The Recipes page__
 
