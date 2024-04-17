@@ -19,9 +19,7 @@ ALternate Recipes page wireframes:
 ![Desktop Wireframe Recipes Page - Version 2](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version2.png)
 ![Desktop Wireframe Recipes Page - Version 3](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version3.png)
 
-![Mobile Wireframe Home Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-homepage.png)
-![Mobile Wireframe Recipes Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-recipespage.png)
-![Mobile Wireframe Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-contactpage.png)
+![Mobile Wireframe Home Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-homepage.png) ![Mobile Wireframe Recipes Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-recipespage.png) ![Mobile Wireframe Contact Page](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-contactpage.png)
 
 
 ## Features 
