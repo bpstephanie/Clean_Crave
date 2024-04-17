@@ -2,21 +2,41 @@
 
 Clean Crave is a site to provide healthy meals that aid people whilst studying. The site is targeted at students who want to know what foods are good for brain function and concentrating. The site will be useful to help take away the stress of thinking what to prepare on a daily basis.
 
-Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html">Clean Crave</a>
+Welcome to <a href="https://bpstephanie.github.io/Clean_Crave/index.html" target="_blank">Clean Crave</a>
 
 ![Responsive Mockup](https://github.com/bpstephanie/Clean_Crave/blob/main/media/responsive-mockup.png)
 
-## Features 
+## Wireframes
 
+The wireframes for Clean Crave were produced in <a href="https://balsamiq.com/?gad_source=1&gclid=CjwKCAjw5v2wBhBrEiwAXDDoJSMse7lgXFB9cNqU7zcdlO_VQcy3jXX1J7YQbar6kNPPKscVweNuhBoCV7MQAvD_BwE">Balsamiq</a>. There a wireframes for full desktop and mobile sizes. There are 2 alternate versions of the desktop Recipes page. 
+
+Desktop wireframes:
+![Desktop Wireframe Images](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-homepage.png)
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version1.png)
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-contactpage.png)
+
+ALternate Recipes page wireframes:
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version2.png)
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/desktop-wireframe-recipespage-version3.png)
+
+![Mobile Wireframe Images](https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-homepage.png)
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-recipespage.png)
+(https://github.com/bpstephanie/Clean_Crave/blob/main/media/wireframes/mobile-wireframe-contactpage.png)
+
+
+## Features 
 
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all five pages, the full responsive navigation bar includes links to the Logo, Home page, Recipe page and Contact page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Recipes page and Contact page and is identical in each page to allow for easy navigation.
+  - On mobile devices, access to the Home page, Recipes page and Contact page is from the dropdown menu by clicking the burger icon.
+  - This section will allow the user to easily navigate from page to page across all devices without having to use the ‘back’ button. 
 
-![Nav Bar](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_desktop.png)
+![Nav Bar Desktop](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_desktop.png)
+![Nav Bar Mobile](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile.png)
+![Nav Bar Mobile Dropdown Menu](https://github.com/bpstephanie/Clean_Crave/blob/main/media/site-screenshots/navbar_mobile_dropdown.png)
 
 - __The landing page image__
 
