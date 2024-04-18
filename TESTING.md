@@ -26,7 +26,9 @@ The CSS Validator results are:
 
 ## Responsiveness Test
 
-The responsive design tests were carried out by [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/).
+The responsive design tests were carried out by [Responsive Design Checker](https://www.responsivedesignchecker.com/) and [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) manually. Checks were done for the following screen sizes: widths of 280px, 375px, 480px, 576px, 768px, 800px, 992px and 1200px. Due to extra space seen around some elements and in sections, 1 media query for screens of 800px and up was added. 
+
+Clean Crave was found to be responsive to all the screen sizes checked.
 
 ## Browser Compatability
 
@@ -63,3 +65,6 @@ During validation of the HTML pages, 4 bugs came up:
 The site was also tested using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse). The results were as follows:
 
 ![Google Lighthouse Rating](https://github.com/bpstephanie/Clean_Crave/blob/main/media/lighthouse_rating.png)
+
+### Peer review
+As well as the beforementioned testing, Clean Crave was reviewed by my peers in Slack. A few points were made such as; adding more padding to the footer and adding a line break between "Nutrition per serving:" and the boxes below. The adjustments were made on CSS.
