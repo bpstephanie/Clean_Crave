@@ -68,7 +68,7 @@ Clean Crave website has three pages. The [home page](index.html) is the default 
       * 'Lato' was chosen for its easy to read properties.
   
   - ### Colour Scheme
-    The colour scheme chosen was green, beige and coral. Green was chosen for its healthy conotations. Clean Crave wants its users to know that the knowledge and recipes on the site are good for the users' wellbeing and health.
+    The colour scheme chosen was green, beige and coral. Green was chosen for its healthy connotations. Clean Crave wants its users to know that the knowledge and recipes on the site are good for the users' wellbeing and health.
 
 ![Colour Palette](https://github.com/bpstephanie/Clean_Crave/blob/main/media/colour_palette.png)
 
@@ -129,7 +129,7 @@ Mobile navigation menu:
 
 - ### The Contact Page
 
-  - This page will allow the user to subscribe to a daily, weekly or monthly newsletter, depending on their preference. The newletter will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
+  - This page will allow the user to subscribe to a daily, weekly or monthly newsletter, depending on their preference. The newsletter will be kept up to date with the newest recipes, tips and advice to staying on the healthy track. The user will be asked to submit their full name and email address. 
   - This page will also allow users to get in contact with Clean Crave. The user will be asked to submit their full name and email address, along with their enquiry.
   - This page is responsive to different screen sizes.
 
@@ -190,7 +190,7 @@ The live link can be found here - https://bpstephanie.github.io/Clean_Crave/reci
 A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. The steps to fork the repository are as follows:
 
   1. Log in to GitHub and locate the repository.
-  2. On the right hand side of the page, inline with the repository name, is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
+  2. On the right hand side of the page, in line with the repository name, is a button called 'Fork', click on the button to create a copy of the original repository in your GitHub Account.
   
 ![How To Fork](https://github.com/bpstephanie/Clean_Crave/blob/main/media/fork_1.png)
 
@@ -214,7 +214,7 @@ The steps to clone a project from GitHub are as follows:
 * Fonts: [Google Fonts](https://fonts.google.com/)
 * Icons: [Fontawesome](https://fontawesome.com/)
 * Colour Palettes: [Coolors](https://www.bbcgoodfood.com/)
-* Mockup: [Techsini](https://techsini.com/)
+* Mock-up: [Techsini](https://techsini.com/)
 * Chrome for Developers: [Dev Tools](https://developer.chrome.com/docs/devtools)
 
 * The polka-dot background was learned from [30 Seconds of Code](https://www.30secondsofcode.org/css/s/polka-dot-pattern/). 
@@ -239,6 +239,6 @@ The images were optimised with [Tinypng](https://tinypng.com/).
 
 ## Acknowledgements
 
-Clean Crave has been completed as a Portfolio 1 Project, part of the Full Stack Software Developer Diploma at Code Institute. I would like to thank my Code Institue mentor,  Precious Ijege, the Slack community, and everyone at Code Institute for their help and support. 
+Clean Crave has been completed as a Portfolio 1 Project, part of the Full Stack Software Developer Diploma at Code Institute. I would like to thank my Code Institute mentor,  Precious Ijege, the Slack community, and everyone at Code Institute for their help and support. 
 
 Stephanie Bell 2024.

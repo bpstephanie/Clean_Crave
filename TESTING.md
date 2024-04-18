@@ -2,9 +2,9 @@
 
 ## Validator Testing
 
-The Clean Crave site has be throughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
+The Clean Crave site has be thoroughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/). Minor errors were found on the home and inspiration pages. After a fix and retest, no errors were returned for both. 
 
-The HTML W3C validator validator results for each page:
+The HTML W3C validator results for each page:
 
 Home page:
 ![W3C Validator Test Results](https://github.com/bpstephanie/Clean_Crave/blob/main/media/W3C-screenshots/html_valid_home.png)
@@ -30,7 +30,7 @@ The responsive design tests were carried out by [Responsive Design Checker](http
 
 Clean Crave was found to be responsive to all the screen sizes checked.
 
-## Browser Compatability
+## Browser Compatibility
 
 Clean Crave was tested on  Google Chrome, Safair, Mozilla Firefox, Microsoft Edge, iOS and Andriod with no visible issues for the user. [BrowserStack](https://www.browserstack.com/) was used to test functionality, appearance and responsiveness. 
 
