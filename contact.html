@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,10 +48,12 @@
     <main id="contact-image">
         <!-- Newsletter sign up form-->
         <section id="contact-forms">
+            <h2 class="hidden-heading">Subscribe & Ask</h2>
             <form id="signup-form" action="newsletter.html">
                 <h3>Sign up to our newsletter to get great recipes straight in your inbox!</h3>
                 <label for="first-name-N">First Name:</label><br>
-                <input type="text" id="first-name-N" name="first-name-N" placeholder=" Jane" class="text-input" required>
+                <input type="text" id="first-name-N" name="first-name-N" placeholder=" Jane" class="text-input"
+                    required>
                 <br>
                 <label for="last-name-N">Last Name:</label><br>
                 <input type="text" id="last-name-N" name="last-name-N" placeholder=" Doe" class="text-input" required>
@@ -59,15 +62,21 @@
                 <input type="email" id="email-address-N" name="email-address-N" placeholder=" cleancrave@info.co.uk"
                     class="text-input" required>
                 <br>
-                <h4>How often would you like to receive emails?</h4>
-                <label for="daily">Daily:</label>
-                <input type="radio" id="daily" name="email-frequency" value="daily" required>
-
-                <label for="weekly">Weekly:</label>
-                <input type="radio" id="weekly" name="email-frequency" value="weekly" required>
-
-                <label for="monthly">Monthly:</label>
-                <input type="radio" id="monthly" name="email-frequency" value="monthly" required>
+                <div>
+                    <h4>How often would you like to receive emails?</h4>
+                    <div>
+                        <label for="daily">Daily:</label>
+                        <input type="radio" id="daily" name="email-frequency" value="daily" required>
+                    </div>
+                    <div>
+                        <label for="weekly">Weekly:</label>
+                        <input type="radio" id="weekly" name="email-frequency" value="weekly" required>
+                    </div>
+                    <div>
+                        <label for="monthly">Monthly:</label>
+                        <input type="radio" id="monthly" name="email-frequency" value="monthly" required>
+                    </div>
+                </div>
                 <br>
                 <button type="submit">Subscribe!</button>
             </form>
