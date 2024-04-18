@@ -358,10 +358,12 @@ main {
 footer {
     background-color: #0C5914;
     color: #ffffff;
+    padding: 1%;
 }
 
 #socialmedia-icons {
     display: flex;
+    text-align: center;
     flex-flow: row wrap;
     justify-content: space-evenly;
     font-size: 200%;
@@ -394,6 +396,13 @@ footer {
     /* Recipes page styles*/
     .recipe-header {
         margin: 10% 30% 2% 30%;
+    }
+
+    .recipecard {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        max-height: 50%;
     }
 
     /* Newsletter and submitted enquiry styles */
@@ -482,15 +491,26 @@ footer {
         margin: 5% 30% 2% 30%;
     }
 
+}
 
+/* Media query: large tablets (800px and up)*/
+@media screen and (min-width: 800px) {
+    /* Recipes Section */
     .recipecard {
+        margin-left: 5%;
+        margin-right: 5%;
         display: flex;
-        flex-direction: column;
-        max-width: 50%;
-        max-height: 50%;
+        flex-direction: row;
+        max-width: 100%;
+        max-height: 100%;
     }
 
+    .recipecard-img {
+        height: 300px;
+        width: 300px;
+    }
 }
+
 
 /* Media query: large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
@@ -561,20 +581,6 @@ footer {
     /* Recipes page */
     .recipe-header {
         padding-top: 5%;
-    }
-
-    .recipecard {
-        margin-left: 5%;
-        margin-right: 5%;
-        display: flex;
-        flex-direction: row;
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-    .recipecard-img {
-        height: 300px;
-        width: 300px;
     }
 
     .ingmeth-container {
