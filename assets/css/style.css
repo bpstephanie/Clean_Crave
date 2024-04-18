@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* General styles */
     color: #254328;
     font-family: 'Lato', sans-serif;
 }
@@ -102,7 +101,6 @@ nav {
     background-size: 130px 130px;
     background-position: 0 0, 65px 65px;
     background-repeat: repeat;
-
 }
 
 .polka-dot-pink {
@@ -162,7 +160,6 @@ main {
     font-size: 16px;
     margin: 4px 2px;
     border-radius: 2px;
-
 }
 
 #hero-text button:hover {
@@ -490,6 +487,7 @@ footer {
 
 /* Media query: large tablets (800px and up)*/
 @media screen and (min-width: 800px) {
+
     /* Recipes Section */
     .recipecard {
         margin-left: 5%;
@@ -505,7 +503,6 @@ footer {
         width: 300px;
     }
 }
-
 
 /* Media query: large devices (laptops and desktops 992px and up)*/
 @media screen and (min-width: 992px) {
