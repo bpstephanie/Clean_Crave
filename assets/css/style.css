@@ -578,6 +578,19 @@ footer {
         flex-basis: 0%;
     }
 
+    .overlay-text {
+        position: absolute;
+        font-family: 'Merienda', cursive;
+        top: 50%;
+        right: 50%;
+        transform: translate(50%, -50%);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        padding: 5px 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+
     /* Recipes page */
     .recipe-header {
         padding-top: 5%;
